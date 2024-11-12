@@ -25,4 +25,4 @@ In the context of the DWT (Discrete Wavelet Transform) decomposition, the key pa
 
 - $J$ represents the order of DWT decomposition.
 - $\alpha$ denotes the watermark embedding strength.
-- &\lambda& is the ratio between the watermark extraction loss and the scene reconstruction loss.
+- &\Lambda& is the ratio between the watermark extraction loss and the scene reconstruction loss.
