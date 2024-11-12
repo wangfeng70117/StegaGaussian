@@ -23,6 +23,6 @@ We have written all the scripts we run to the run_scripts.sh. You can run by
 
 In the context of the DWT (Discrete Wavelet Transform) decomposition, the key parameters are as follows:
 
-- ( J \) represents the order of DWT decomposition.
-- ( \alpha \) denotes the watermark embedding strength.
-- \( \lambda \) is the ratio between the watermark extraction loss and the scene reconstruction loss.
+- $J$ represents the order of DWT decomposition.
+- $\alpha$ denotes the watermark embedding strength.
+- &\lambda& is the ratio between the watermark extraction loss and the scene reconstruction loss.
