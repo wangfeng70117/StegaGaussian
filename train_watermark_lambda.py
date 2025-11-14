@@ -596,25 +596,6 @@ def training(dataset, opt, pipe, args):
             f.write(
                 f"  Render: PSNR={res['avg_render_psnr']:.4f}, SSIM={res['avg_render_ssim']:.4f}, LPIPS={res['avg_render_lpips']:.4f}\n\n")
 
-    if len(results) > 0:
-        df = pd.DataFrame(results)
-
-        # 创建保存目录
-        save_dir = os.path.join("results")
-        os.makedirs(save_dir, exist_ok=True)
-
-        # 构造保存路径，建议每次运行使用不同的 exp_name 区分实验
-        save_path = os.path.join(save_dir, f"final_results.xlsx")
-
-        # 如果文件已存在则合并
-        if os.path.exists(save_path):
-            old_df = pd.read_excel(save_path)
-            df = pd.concat([old_df, df], ignore_index=True)
-
-        # 写入 Excel 文件
-        df.to_excel(save_path, index=False)
-        print(f"✅ 评估指标已保存至: {save_path}")
-    print(f"Saved final results to {results_path}")
 
 
 # 主函数
