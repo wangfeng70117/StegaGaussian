@@ -18,7 +18,7 @@ Recent advances in 3D Gaussian Splatting (3DGS) have enabled high-quality scene 
 # Run
 
 ```
-python train_watermark_lambda.py -s DATA_PATH -m (3GDS OUTPUT_PATH) --water_iterations 40000 --J 1 --lambda_render 12 --lambda_wm 12 --lambda_w 1 --lambda_neg 15 
+python train_watermark_lambda.py -s DATA_PATH -m (3GDS OUTPUT_PATH) --water_iterations 40000 --J 2 --lambda_render 12 --lambda_wm 12 --lambda_w 1 --lambda_neg 15 
 ```
 Sometimes the results may fail to distinguish between watermarked images and those without watermarks. If the PSNR of the output decoded watermark image is a few digits, reduce the lambda_neg; if it is a few dozen, increase the lambda_neg
 
