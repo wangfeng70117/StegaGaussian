@@ -12,9 +12,12 @@ Recent advances in 3D Gaussian Splatting (3DGS) have enabled high-quality scene 
 - We design a CBAM‑enhanced decoder to robustly extract the message from low‑frequency subbands of rendered images, maintaining accuracy even under severe noise, compression, and viewpoint variations.
 
 - We propose a negative supervision strategy that trains the decoder with both watermarked and clean inputs, ensuring that it produces meaningful messages only for watermarked renders.
-- 
+
 - Experiments on diverse 3D scenes confirm that our method achieves strong imperceptibility, reliable watermark extraction, and robustness against common distortions.
 
+```
+python train_watermark_lambda.py -s DATA_PATH -m (3GDS OUTPUT_PATH) --water_iterations 40000 --J 1 --lambda_render 12 --lambda_wm 12 --lambda_w 1 --lambda_neg 15 
+```
 
 We have written all the scripts we run to the run_scripts.sh. You can run by 
 
