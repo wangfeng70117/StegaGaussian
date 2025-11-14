@@ -1,0 +1,7 @@
+# ninja log v5
+1	13893	7233996458180747	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/ext.obj	12f2e1098de16198
+4	16462	7233996483809555	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/simple_knn.obj	d17901c5f434cf3b
+5	49492	7233996810986262	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/spatial.obj	dc2654b5c87fd1d6
+85	11711	7237396698346533	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/ext.obj	4df6550fafa94e2b
+105	14077	7237396721900093	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/simple_knn.obj	d39429be0356d43f
+131	41405	7237396994943215	F:/code/AIGC/gaussian-splatting/submodules/simple-knn/build/temp.win-amd64-cpython-38/Release/spatial.obj	b6542d02cc6ab972

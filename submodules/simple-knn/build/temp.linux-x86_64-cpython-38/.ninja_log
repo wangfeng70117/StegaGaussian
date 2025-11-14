@@ -1,0 +1,4 @@
+# ninja log v5
+1	14985	1720787645113125136	/data/ys/gaussianWatermark_pre/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	cb43637788d1516f
+0	31081	1720787661177100488	/data/ys/gaussianWatermark_pre/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	35e88a59c6d25440
+2	62314	1720787692437050936	/data/ys/gaussianWatermark_pre/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	b0ab23ad82d33c78
